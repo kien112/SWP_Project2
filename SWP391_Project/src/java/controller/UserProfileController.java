@@ -25,7 +25,7 @@ import model.User;
 @WebServlet(name="UserProfileController", urlPatterns={"/userProfile"})
 public class UserProfileController extends HttpServlet {
    
-    String FileUpload_Directory = "E:\\pj_swp\\SWP391_Project\\web\\image\\";
+    String FileUpload_Directory = "C:\\Users\\admin\\Downloads\\SWP391_Project\\summer2023-swp391.se1721-g2\\SWP391_Project\\web\\image\\";
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
     throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
